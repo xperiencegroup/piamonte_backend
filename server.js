@@ -57,7 +57,7 @@ app.post("/send-email", async (req, res) => {
           </table>
 
           <p style="margin-top: 32px; font-size: 12px; color: #b0a090; letter-spacing: 1px;">
-            Este mensaje fue generado automáticamente desde piamonteresidencial.mx
+            Este mensaje fue generado automáticamente desde piamonte.mx
           </p>
 
         </div>
