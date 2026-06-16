@@ -40,19 +40,19 @@ app.post("/send-email", async (req, res) => {
           <table style="width: 100%; border-collapse: collapse; font-size: 15px;">
             <tr style="border-bottom: 1px solid #e0d8cf;">
               <td style="padding: 12px 0; color: #7a6a5a; width: 40%;">Nombre</td>
-              <td style="padding: 12px 0; color: #3b2f2f;">${sanitize(name)}</td>
+              <td style="padding: 12px 0; color: #3b2f2f;">${name}</td>
             </tr>
             <tr style="border-bottom: 1px solid #e0d8cf;">
               <td style="padding: 12px 0; color: #7a6a5a;">Correo</td>
-              <td style="padding: 12px 0; color: #3b2f2f;">${sanitize(email)}</td>
+              <td style="padding: 12px 0; color: #3b2f2f;">${email}</td>
             </tr>
             <tr style="border-bottom: 1px solid #e0d8cf;">
               <td style="padding: 12px 0; color: #7a6a5a;">Teléfono</td>
-              <td style="padding: 12px 0; color: #3b2f2f;">${sanitize(phone)}</td>
+              <td style="padding: 12px 0; color: #3b2f2f;">${phone}</td>
             </tr>
             <tr>
               <td style="padding: 12px 0; color: #7a6a5a;">Lote de interés</td>
-              <td style="padding: 12px 0; color: #3b2f2f;">${lote ? sanitize(lote) : "No especificado"}</td>
+              <td style="padding: 12px 0; color: #3b2f2f;">${lote ? lote : "No especificado"}</td>
             </tr>
           </table>
 
