@@ -24,7 +24,7 @@ app.post("/send-email", async (req, res) => {
 
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
-      to: "ventas@piamonte.mx",
+      to: ["ventas@piamonte.mx", "programacion@xperience.com"],
       replyTo: email,
       subject: `Solicitud de información - ${name}`,
       html: `
