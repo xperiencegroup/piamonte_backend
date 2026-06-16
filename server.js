@@ -24,7 +24,7 @@ app.post("/send-email", async (req, res) => {
 
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
-      to: "emmsanchezaranda@hotmail.com",
+      to: "ventas@piamonte.mx",
       subject: `Solicitud de información - ${name}`,
       html: `
         <div style="font-family: Georgia, serif; max-width: 560px; margin: 0 auto; border: 1px solid #e0d8cf; padding: 40px; background-color: #faf8f5; color: #3b2f2f;">
